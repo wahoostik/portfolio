@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.header__top-nav {
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 99%;
+}
+
+.header__top-nav-link {
+    color: rgb(26, 11, 114);
+    line-height: 44px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin: 10px;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    transition: all 0.1s ease-in-out;
+    border-radius: 50px;
+    background: #e7ecee;
+    box-shadow:  7px 7px 13px #c4c9ca,
+                -7px -7px 13px #ffffff;
+    &:active {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #d0d4d6, #f7fdff);
+    box-shadow:  7px 7px 13px #c4c9ca,
+                -7px -7px 13px #ffffff;
+    }
+}

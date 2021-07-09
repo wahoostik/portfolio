@@ -1,0 +1,17 @@
+.app {
+  text-align: center;
+  animation: pop 1s;
+  background: #e7ecee;
+  min-height: 100vh;
+}
+
+@keyframes pop {
+  0% {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

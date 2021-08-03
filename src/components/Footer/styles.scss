@@ -1,0 +1,22 @@
+.footer__top-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.brand-logo-linkedin {
+margin: 10px;
+height: 50px;
+width: 50px;
+background: center url("https://img.icons8.com/fluent/48/000000/linkedin-circled.png");
+border-radius: 50%;
+box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.brand-logo-github {
+margin: 10px;
+height: 50px;
+width: 50px;
+background:center url("https://img.icons8.com/fluent/48/000000/github.png");
+border-radius: 50%;
+box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}

@@ -1,5 +1,6 @@
 import './styles.scss';
 import Header from '../Header';
+import Footer from '../Footer';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <p>
           Portfolio
         </p>
+        <Footer />
       </header>
     </div>
   );

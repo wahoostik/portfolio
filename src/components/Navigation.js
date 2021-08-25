@@ -1,15 +1,13 @@
 // == Import
-import React from 'react';
-import './styles.scss';
 import { Link } from 'react-router-dom';
 
 // == Composant
 const Header = () => (
-<div className='header'>
+    <div className='header'>
         <nav className="header__top-nav">
             <Link
-            to="/"
-            className="header__top-nav-link">
+                to="/"
+                className="header__top-nav-link">
             Accueil
             </Link>
             <Link
@@ -18,17 +16,17 @@ const Header = () => (
                 A propos
             </Link>
             <Link
-                to="/projects"
+                to="/projets"
                 className="header__top-nav-link">
                 Projets
             </Link>
             <Link
-                to="/skills"
+                to="/contact"
                 className="header__top-nav-link">
                 Contact
             </Link>
         </nav>
-</div>
+    </div>
 );
 
 // == Export

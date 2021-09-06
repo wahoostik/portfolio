@@ -1,6 +1,23 @@
-.footer__top-nav {
+.footer {
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
     display: flex;
-    justify-content: center;
+    width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    border-top: 0.1rem solid #ADB0B4;
+    background-color: #0F1624;
+}
+
+.link__top-nav {
+    padding: 0;
+    padding-right: 10rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 99%;
 }
 
 .brand-logo-linkedin {

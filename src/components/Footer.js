@@ -1,20 +1,20 @@
 // == Import
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 // == Composant
 const Footer = () => (
     <div className='footer'>
-        <nav className="footer__top-nav">
-            <Link
+        <nav className="link__top-nav">
+            <NavLink
                 to="/"
                 className="container">
                 <div className="brand-logo-linkedin"></div>
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
                 to="/"
                 className="container">
                 <div className="brand-logo-github"></div>
-            </Link>
+            </NavLink>
         </nav>
     </div>
 );

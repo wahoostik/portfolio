@@ -1,0 +1,88 @@
+.home {
+    width: 100%;
+    margin: auto;
+}
+
+.home-title {
+    padding-top: 15rem;
+    font-family: $font-1, sans-serif;
+    font-weight: 700;
+    font-size: 6.5rem;
+    letter-spacing: .5rem;
+    background-color: white;
+    background-image: linear-gradient(45deg, #e1e6ec, #ADB0B4);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    animation: pop 4s;
+}
+
+.home-subtitle {
+    font-family: $font-1, sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #e1e6ec;
+    padding: 2rem 0 0 0;
+}
+
+.home-techno {
+    font-family: $font-1, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #e1e6ec;
+    padding: .8rem 0 0 0;
+}
+
+.link__home {
+    padding: 2rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    width: 99%;
+}
+
+.brand-logo-linkedin-home {
+margin: 10px;
+height: 60px;
+width: 60px;
+background: center url("https://img.icons8.com/metro/50/000000/linkedin.png");
+background-color: #e1e6ec;
+background-size: 55%;
+background-repeat: no-repeat;
+border: 2px solid white;
+border-radius: 50%;
+&:hover {
+    border: 2px solid #ADB0B4;
+}&:active {
+    background-color: white;
+}
+}
+
+.brand-logo-github-home {
+margin: 10px;
+height: 60px;
+width: 60px;
+background:center url("https://img.icons8.com/ios-filled/50/000000/github.png");
+background-color: #e1e6ec;
+background-size: 90%;
+background-repeat: no-repeat;
+border: 1px solid white;
+border-radius: 50%;
+&:hover {
+    border: 1px solid #ADB0B4;
+}&:active {
+    background-color: white;
+}
+}
+
+@keyframes pop {
+0% {
+opacity: 0;
+transform: translateY(-5rem);
+}
+100% {
+opacity: 1;
+transform: translateY(0);
+}
+}

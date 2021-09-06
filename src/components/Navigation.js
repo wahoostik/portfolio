@@ -1,30 +1,34 @@
 // == Import
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 // == Composant
 const Header = () => (
     <div className='header'>
-        <nav className="header__top-nav">
-            <Link
+        <Link
+            to="/"
+            className="logo">
+        </Link>
+        <nav className="header__nav">
+            <NavLink
                 to="/"
                 className="header__top-nav-link">
             Accueil
-            </Link>
-            <Link
-                to="/"
+            </NavLink>
+            <NavLink
+                to="/a-propos"
                 className="header__top-nav-link">
                 A propos
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
                 to="/projets"
                 className="header__top-nav-link">
                 Projets
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
                 to="/contact"
                 className="header__top-nav-link">
                 Contact
-            </Link>
+            </NavLink>
         </nav>
     </div>
 );

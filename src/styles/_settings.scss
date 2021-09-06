@@ -3,12 +3,23 @@
 $font-1: "Poppins", sans-serif;
 
 $color-1: #e7ecee;
+$color-2: #D6E1EA;
+$color-3: #E5EEF7;
+
+* {
+font-family: $font-1;
+}
 
 body {
   text-align: center;
   animation: pop 2s;
-  background: $color-1;
+  // background: linear-gradient($color-2, $color-3);
+  background-color: black;
   min-height: 100vh;
+
+  margin:0;
+  padding:0;
+  height:100%;
 }
 
 @keyframes pop {

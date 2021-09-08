@@ -11,7 +11,7 @@ const Home = () => (
         <Video />
         <h1 className='home-title'>ANTHONY PACCAUD</h1>
         <h2 className='home-subtitle'>Développeur web fullstack Javascript</h2>
-        <h3 className='home-techno'>['Node.js', 'React', 'PostgreSQL']</h3>
+        <h3 className='home-techno'>['Node.js', 'React']</h3>
         <nav className="link__home">
             <Link
                 to={{pathname: 'https://www.linkedin.com/in/anthony-paccaud/'}}

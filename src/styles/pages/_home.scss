@@ -7,8 +7,9 @@
     padding-top: 15rem;
     font-family: $font-1, sans-serif;
     font-weight: 700;
-    font-size: 6.5rem;
+    font-size: 6rem;
     letter-spacing: .5rem;
+    /*
     background-color: white;
     background-image: linear-gradient(45deg, #e1e6ec, #ADB0B4);
     background-size: 100%;
@@ -16,14 +17,17 @@
     background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
+    */
+    color: #0F1624;
     animation: pop 4s;
 }
 
 .home-subtitle {
     font-family: $font-1, sans-serif;
     font-weight: 500;
-    font-size: 2.5rem;
-    color: #e1e6ec;
+    font-size: 2rem;
+    // color: #e1e6ec;
+    color: #0F1624;
     padding: 2rem 0 0 0;
 }
 
@@ -31,7 +35,8 @@
     font-family: $font-1, sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
-    color: #e1e6ec;
+    // color: #e1e6ec;
+    color: #0F1624;
     padding: .8rem 0 0 0;
 }
 
@@ -53,7 +58,7 @@ background-repeat: no-repeat;
 border: 2px solid white;
 border-radius: 50%;
 &:hover {
-    border: 2px solid #ADB0B4;
+    border: 2px solid #0F1624;
 }&:active {
     background-color: white;
 }
@@ -70,7 +75,7 @@ background-repeat: no-repeat;
 border: 1px solid white;
 border-radius: 50%;
 &:hover {
-    border: 1px solid #ADB0B4;
+    border: 1px solid #0F1624;
 }&:active {
     background-color: white;
 }

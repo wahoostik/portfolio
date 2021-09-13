@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 // == Import
 import { useState } from 'react';
@@ -36,16 +37,38 @@ const Contact = () => {
         }
     };
 
-    const failMessage = () => {
+    const failMessage = (message) => {
         let formMess = document.querySelector('.contact__form-message');
-        formMess.innerHTML = 'Merci de remplir correctement les champs requis*';
+
+        formMess.innerHTML = 'Merci de remplir correctement les champs requis *';
         formMess.style.opacity = 1;
         formMess.style.background = 'rgb(253, 87, 87)';
         formMess.style.animation = 'dongle 1s';
         setTimeout(() => {
             formMess.style.animation = 'none';
         }, 1000);
-        return false;
+
+        document.getElementById('name').classList.add('error');
+        document.getElementById('email').classList.add('error');
+        document.getElementById('message').classList.add('error');
+    };
+
+    const successMessage = () => {
+        let formMess = document.querySelector('.contact__form-message');
+
+        formMess.innerHTML = 'Message envoyé !<br>Je vous contecterais dès que possible';
+        formMess.style.opacity = 1;
+        formMess.style.lineHeight = '1.5rem';
+        formMess.style.background = '#0e8a03';
+        formMess.style.transition = '0.5s ease';
+
+        document.getElementById('name').classList.remove('error');
+        document.getElementById('email').classList.remove('error');
+        document.getElementById('message').classList.remove('error');
+
+        setTimeout(() => {
+            formMess.style.opacity = '0';
+        }, 400);
     };
 
     const handleSubmit = (event) => {
@@ -76,15 +99,17 @@ const Contact = () => {
             .then((result) => {
                 console.log(result);
                 console.log('success !');
+                successMessage();
                 setName('');
                 setCompany('');
                 setPhone('');
                 setEmail('');
                 setMessage('');
             })
-            .catch((error) =>
-                console.trace(error),
-            document.querySelector('.form-message').innerHTML = 'Une erreur s\'est produite, veuillez réessayer.');
+            .catch((error) => {
+                failMessage('Une erreur s\'est produite, veuillez réessayer.');
+            }
+            );
     };
     
     return (

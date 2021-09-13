@@ -67,7 +67,7 @@
     opacity: 0;
     color: #0F1624;
     border-radius: 4px;
-    // box-shadow: 0 0 2px rgba(51, 51, 51, 0.3);
+    transition: 0.2s ease;
 }
 
 .contact__label {
@@ -109,6 +109,11 @@
     // right: 0;
     // transform-origin: 50% 50%;
 }
+
+.error::placeholder {
+    color: #ff4d4d;
+}
+
 @keyframes dongle {
     0% {
         transform: translate(0px, 0px);

@@ -29,6 +29,16 @@
     // color: #e1e6ec;
     color: #0F1624;
     padding: 2rem 0 0 0;
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }
 
 .home-techno {
@@ -38,6 +48,7 @@
     // color: #e1e6ec;
     color: #0F1624;
     padding: .8rem 0 0 0;
+    animation: fadein 3s;
 }
 
 .link__home {
@@ -57,10 +68,15 @@ background-size: 55%;
 background-repeat: no-repeat;
 border: 2px solid white;
 border-radius: 50%;
+animation: fadein 3s;
 &:hover {
     border: 2px solid #0F1624;
-}&:active {
     background-color: white;
+    transition: all 0.5s ease-in-out;
+}&:active {
+    border: 2px solid #0F1624;
+    background-color: #e1e6ec;
+    transition: all 0.5s ease-in-out;
 }
 }
 
@@ -74,10 +90,15 @@ background-size: 90%;
 background-repeat: no-repeat;
 border: 1px solid white;
 border-radius: 50%;
+animation: fadein 3s;
 &:hover {
     border: 1px solid #0F1624;
-}&:active {
     background-color: white;
+    transition: all 0.5s ease-in-out;
+}&:active {
+    border: 2px solid #0F1624;
+    background-color: #e1e6ec;
+    transition: all 0.5s ease-in-out;
 }
 }
 

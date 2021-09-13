@@ -18,6 +18,7 @@
     background: url(../../assets/LogoAP-Gris.png) center/cover;
     background-size: 90%;
     background-repeat: no-repeat;
+    transition: all 0.8s ease-in-out;
     &:hover {
     transition: all 0.8s ease-in-out;
     background: url(../../assets/LogoAP-White.png) center/cover;

@@ -1,5 +1,13 @@
 .not-found {
     width: 100%;
     height: 100%;
-    background-color: #637291;
+}
+
+.not-found__text {
+    font-family: $font-1, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #0F1624;
+    padding: 10rem;
+    animation: pop 4s;
 }

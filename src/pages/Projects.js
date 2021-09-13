@@ -10,7 +10,7 @@ const Projects = () => (
     <div className='projects'>
         <Navigation />
         <div className='projects__container'>
-            <h2 className="projects__title">MES PROJETS</h2>
+            <h1 className="projects__title">MES PROJETS</h1>
             <div className="projects__data">
                 {Data.map((data) => (
                     <Link
@@ -20,6 +20,7 @@ const Projects = () => (
                         <div className="projects__details">
                             <img src={data.img} alt={data.title} className="projects__details-img" />
                             <h4 className="projects__details-title">{data.title}</h4>
+                            <h5 className="projects__details-details">{data.details}</h5>
                             <span className="projects__details-content">{data.content}</span>
                         </div>
                     </Link>

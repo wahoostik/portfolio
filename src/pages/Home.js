@@ -11,17 +11,17 @@ const Home = () => (
         <Video />
         <h1 className='home-title'>ANTHONY PACCAUD</h1>
         <h2 className='home-subtitle'>Développeur web fullstack Javascript</h2>
-        <h3 className='home-techno'>['Node.js', 'React']</h3>
+        <h3 className='home-techno'>['React', 'Node.js']</h3>
         <nav className="link__home">
             <Link
                 to={{pathname: 'https://www.linkedin.com/in/anthony-paccaud/'}}
-                className="container"
+                className="home__container"
                 target="_blank">
                 <div className="brand-logo-linkedin-home"></div>
             </Link>
             <Link
                 to={{pathname: 'https://github.com/wahoostik'}}
-                className="container"
+                className="home__container"
                 target="_blank">
                 <div className="brand-logo-github-home"></div>
             </Link>

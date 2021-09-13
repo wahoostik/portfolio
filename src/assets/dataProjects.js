@@ -9,19 +9,22 @@ export default [
         content: 'React/Redux - SCSS - Node/Express - PostgreSQL - Sqitch',
         img: `${Blockchain}`,
         slug: 'http://blockchain-apotheose.surge.sh/',
+        details: 'Projet de fin d\'étude en ligne',
     },
     {
         id: 2,
         title: 'Chatroom',
         content: 'React/Redux - SCSS - Socket.io',
         img: `${Chatroom}`,
-        slug:'https://github.com/wahoostik/chatroom',
+        slug: 'https://github.com/wahoostik/chatroom',
+        details: 'Appli web',
     },
     {
         id: 3,
         title: 'Github Search API',
         content: 'React - API - SCSS - Semantic-Ui',
         img: `${Github}`,
-        slug:'https://github.com/wahoostik/',
+        slug: 'https://github.com/wahoostik/',
+        details: 'Appli web',
     }
 ];

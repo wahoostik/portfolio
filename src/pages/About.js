@@ -31,8 +31,27 @@ const About = () => (
                 </div>
             </section>
             <section className='about__cv'>
-                <h2>Compétences</h2>
-                <h2>Outils</h2>
+                <h2 className='about__cv-title'>Compétences</h2>
+                <div className="about__cv-column-skills">
+                    <div>
+                        <p>React</p>
+                        <p>Redux</p>
+                        <p>JavaScript</p>
+                        <p>HTML</p>
+                    </div>
+                    <div>
+                        <p>CSS, SCSS</p>
+                        <p>Node.js</p>
+                        <p>Express</p>
+                        <p>PostgreSQL</p>
+                    </div>
+                    <div>
+                        <p>Illustrator</p>
+                        <p>InDesign</p>
+                        <p>Photoshop</p>
+                        <p>XPress</p>
+                    </div>
+                </div>
             </section>
             <div className='experience__container'>
                 <h2 className='experience__container-title'>Expérience</h2>

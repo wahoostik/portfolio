@@ -182,10 +182,6 @@ const Contact = () => {
                 />
                 <div className="contact__form-message"></div>
             </form>
-            
-            <h4 className="contact__talk">Entrons en contact</h4>
-            <h5 className="contact__talk">anthony.paccaud@orange.fr</h5>
-            <h5 className="contact__talk">06 71 03 79 42</h5>
         </div>
     );};
 

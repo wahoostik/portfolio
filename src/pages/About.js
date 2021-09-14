@@ -6,6 +6,8 @@ import Navigation from '../components/Navigation';
 import Experience from '../assets/dataExperience';
 import Training from '../assets/dataTraining';
 import Face from '../assets/VisageCV.jpg';
+import { Link } from 'react-router-dom';
+import CV from '../assets/CV-AP-2021.pdf';
 
 // == Composant
 const About = () => (
@@ -15,18 +17,23 @@ const About = () => (
             <section className='about__presentation'>
                 <div className='presentation'>
                     <h2 className='presentation-title'>Qui suis-je ?</h2>
-                    <p className='presentation-a-propos'>Je suis développeur web reconverti.</p>
+                    <p className='presentation-a-propos'>Je suis développeur web reconverti par passion.</p>
                     <p className='presentation-a-propos'>Je continue d'apprendre au quotidien en pratiquant ce que j'aime le plus :<br/>la programmation.</p>
-                    <p className='presentation-a-propos'>Après une carrière d'infographiste, j'ai opté pour une reconversion dans le métier de développeur web. J'ai choisi l'école O'clock afin d'y faire ma formation,<br/>suite à 6 mois intensifs je me lance aujourd'hui dans la recherche de mon premier boulot de développeur web junior !</p>
+                    <p className='presentation-a-propos'>Après une carrière d'infographiste, j'ai opté pour une reconversion dans le métier de développeur web. J'ai choisi l'école O'clock pour me former au métier de développeur, option Fullstack JavaScript. 6 mois de formation intensive, plus de 700 heures de cours en JavaScript et Node.js, un mois de spécialisation React/API Data et un mois de projet en équipe pour présenter une application web complète et fonctionnelle.</p>
                     <p className='presentation-a-propos'>Toutes mes formations combinées avec mes passions pour l’informatique<br/>et le digital m’ont permis d’acquérir des connaissances techniques et pratiques, créatives, ainsi qu’une expérience professionnelle dans le secteur<br/>des industries graphiques.</p>
-                    <h2>Télécharger mon CV</h2>
+                    <p className='presentation-a-propos-bigger'>Me voilà maintenant développeur Fullstack JavaScript, avec le désir de continuer à apprendre et réaliser de nombreux projets !</p>
+                    <Link to={CV} target='_blank'>
+                        <button type="button" className='presentation-a-propos-cv'>Voir mon CV</button>
+                    </Link>
                 </div>
                 <div className='presentation-picture'>
                     <img src={Face} alt="Anthony Paccaud" className="presentation__face" />
                 </div>
             </section>
-            <h2>Compétences</h2>
-            <h2>Outils</h2>
+            <section className='about__cv'>
+                <h2>Compétences</h2>
+                <h2>Outils</h2>
+            </section>
             <div className='experience__container'>
                 <h2 className='experience__container-title'>Expérience</h2>
                 <div className='experience__container-cards'>

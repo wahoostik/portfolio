@@ -33,6 +33,7 @@
     font-weight: bold;
     font-size: 3rem;
     margin-bottom: 2rem;
+    animation: pop 3s;
 }
 
 .presentation-a-propos {
@@ -40,6 +41,43 @@
     margin-bottom: .7rem;
     font-size: 1.4rem;
     text-align: left;
+}
+
+.presentation-a-propos-bigger {
+    line-height: 1.5;
+    margin-bottom: .7rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.presentation-a-propos-cv {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 13rem;
+    height: 3rem;
+    transition: all 0.6s ease-in-out;
+}
+
+.presentation-a-propos-cv:hover {
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+    transition: all 0.6s ease-in-out;
+}
+
+.presentation-a-propos-cv:active {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+    transition: all 0.3s ease-in-out;
 }
 
 .presentation__face {
@@ -52,17 +90,6 @@
     box-shadow: 16px 16px 30px 5px rgba(0,0,0,0.3);
     
     animation: pop 3s;
-
-    @keyframes pop {
-    0% {
-        opacity: 0;
-        transform: translateX(10rem);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
 }
 
 .experience__container {

@@ -87,8 +87,13 @@
     border-radius: 50%;
     //background: url(../../assets/VisageCV.jpg) center/cover;
     box-shadow: 16px 16px 30px 5px rgba(0,0,0,0.3);
-    
-    animation: pop 3s;
+    animation: apparition 3s;
+    position: relative;
+}
+
+@keyframes apparition {
+    0%   {right:-200px; top:0px;}
+    100% {right:-0px; top:0px;}
 }
 
 .about__cv {

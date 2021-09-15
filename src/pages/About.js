@@ -21,7 +21,6 @@ const About = () => (
             <section className='about__presentation'>
                 <div className='presentation'>
                     <h2 className='presentation-title'>Qui suis-je ?</h2>
-                    <p className='presentation-a-propos'>Je suis développeur web reconverti par passion.</p>
                     <p className='presentation-a-propos'>Après une carrière d'infographiste, j'ai opté pour une reconversion vers le métier de développeur web. J'ai choisi l'école O'clock pour me former au métier de développeur, option Fullstack JavaScript. 6 mois de formation intensive, plus de 700 heures de cours en JavaScript et Node.js, un mois de spécialisation React/API Data et un mois de projet en équipe pour présenter une application web complète et fonctionnelle.</p>
                     <p className='presentation-a-propos'>Toutes mes formations combinées avec mes passions pour l’informatique<br/>et le digital m’ont permis d’acquérir des connaissances techniques et pratiques, créatives, ainsi qu’une expérience professionnelle dans le secteur<br/>des industries graphiques.</p>
                     <p className='presentation-a-propos'>Je continue de m'instruire au quotidien en pratiquant cette nouvelle passion.</p>

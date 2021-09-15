@@ -54,7 +54,7 @@
 .presentation-a-propos-cv {
     font-size: 1.4rem;
     font-weight: 700;
-    margin-top: 2rem;
+    margin-top: 3rem;
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -82,8 +82,7 @@
 
 .presentation__face {
     //text-align: center;
-    width: 20rem;
-    min-width: 10%;
+    width: 35%;
     height: auto;
     border-radius: 50%;
     //background: url(../../assets/VisageCV.jpg) center/cover;
@@ -94,21 +93,22 @@
 
 .about__cv {
     // border: 1px solid orange;
-    margin-top: 7rem;
+    margin-top: 8rem;
     margin-left: 10rem;
     width: 60%;
-    height: 80%;
-    min-height: 40vh;
+    height: 40%;
+    min-height: 30%;
     text-align: left;
+    // border: 1px solid #0F1624;
 }
 
 .about__cv-title {
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 .about__cv-column-skills {
-    margin-top: .7rem;
+    margin-top: 2rem;
     font-size: 1.4rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -118,8 +118,87 @@
         line-height: 1.2;
     }
 }
-
 .experience__container {
+    margin-top: 8rem;
+    margin-left: 10rem;
+    width: 80%;
+    height: 80%;
+    min-height: 40vh;
+    text-align: left;
+    // border: 1px solid #0F1624;
     color: #0F1624;
     white-space: pre-line;
+}
+
+.experience__container-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.experience__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 2rem;
+}
+
+.experience__content {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.experience__dated {
+    font-size: 1.1rem;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.experience__details {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.training__container {
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    margin-left: 10rem;
+    width: 80%;
+    height: 80%;
+    min-height: 40vh;
+    text-align: left;
+    // border: 1px solid #0F1624;
+    color: #0F1624;
+    white-space: pre-line;
+}
+
+.training__container-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.training__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 2rem;
+}
+
+.training__content {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.training__dated {
+    font-size: 1.1rem;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.training__details {
+    font-size: 1.1rem;
+    line-height: 1.5;
 }

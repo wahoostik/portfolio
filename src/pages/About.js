@@ -40,16 +40,16 @@ const About = () => (
                         <p>HTML</p>
                     </div>
                     <div>
-                        <p>CSS, SCSS</p>
+                        <p>CSS</p>
+                        <p>SASS</p>
                         <p>Node.js</p>
                         <p>Express</p>
-                        <p>PostgreSQL</p>
                     </div>
                     <div>
+                        <p>PostgreSQL</p>
                         <p>Illustrator</p>
                         <p>InDesign</p>
                         <p>Photoshop</p>
-                        <p>XPress</p>
                     </div>
                 </div>
             </section>
@@ -72,9 +72,9 @@ const About = () => (
                     {Training.map((dataTraining) => (
                         <div className='training' key={dataTraining.id}>
                             <h3 className='training__title'>{dataTraining.title}</h3>
-                            <h4 className='traning__content'>{dataTraining.content}</h4>
-                            <h5 className='traning__dated'>{dataTraining.dated}</h5>
-                            <p className='traning__details'>{dataTraining.details}</p>
+                            <h4 className='training__content'>{dataTraining.content}</h4>
+                            <h5 className='training__dated'>{dataTraining.dated}</h5>
+                            <p className='training__details'>{dataTraining.details}</p>
                         </div>
                     ))}
                 </div>

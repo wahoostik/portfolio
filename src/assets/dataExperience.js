@@ -11,7 +11,7 @@ export default [
         title: 'Infographiste/Opérateur sur presse numérique',
         dated: '2011 - 2020',
         content: 'Industria',
-        details: '• Mise en page (InDesign, XPress)\n• Retouche image (Illustrator, Photoshop)\n• Imposition (PitStop Pro)\n• Impression sur HP Indigo 5500 et 7800',
+        details: '• Suivi de projet\n• Mise en page (InDesign, XPress)\n• Retouche image (Illustrator, Photoshop)\n• Imposition (PitStop Pro)\n• Impression sur HP Indigo 5500 et 7800',
     },
     {
         id: 3,

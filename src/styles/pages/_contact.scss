@@ -150,3 +150,12 @@
         transform: translate(0px, 0px);
     }
 }
+
+@media screen and (max-width: 720px) {
+.contact__subtitle {
+    margin: 4rem 4rem 4rem 4rem;
+    font-family: $font-1, sans-serif;
+    font-size: 1.2rem;
+    color: #0F1624;
+}
+}

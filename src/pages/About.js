@@ -8,6 +8,10 @@ import Training from '../assets/dataTraining';
 import Face from '../assets/VisageCV.jpg';
 import { Link } from 'react-router-dom';
 import CV from '../assets/CV-AP-2021.pdf';
+import { FaReact, FaNodeJs } from 'react-icons/fa';
+import { SiRedux, SiJavascript, SiPostgresql, SiAdobeindesign, SiAdobeillustrator, SiAdobephotoshop } from 'react-icons/si';
+import { RiHtml5Fill } from 'react-icons/ri';
+import { DiCss3, DiSass } from 'react-icons/di';
 
 // == Composant
 const About = () => (
@@ -18,9 +22,9 @@ const About = () => (
                 <div className='presentation'>
                     <h2 className='presentation-title'>Qui suis-je ?</h2>
                     <p className='presentation-a-propos'>Je suis développeur web reconverti par passion.</p>
-                    <p className='presentation-a-propos'>Je continue d'apprendre au quotidien en pratiquant ce que j'aime le plus :<br/>la programmation.</p>
-                    <p className='presentation-a-propos'>Après une carrière d'infographiste, j'ai opté pour une reconversion dans le métier de développeur web. J'ai choisi l'école O'clock pour me former au métier de développeur, option Fullstack JavaScript. 6 mois de formation intensive, plus de 700 heures de cours en JavaScript et Node.js, un mois de spécialisation React/API Data et un mois de projet en équipe pour présenter une application web complète et fonctionnelle.</p>
+                    <p className='presentation-a-propos'>Après une carrière d'infographiste, j'ai opté pour une reconversion vers le métier de développeur web. J'ai choisi l'école O'clock pour me former au métier de développeur, option Fullstack JavaScript. 6 mois de formation intensive, plus de 700 heures de cours en JavaScript et Node.js, un mois de spécialisation React/API Data et un mois de projet en équipe pour présenter une application web complète et fonctionnelle.</p>
                     <p className='presentation-a-propos'>Toutes mes formations combinées avec mes passions pour l’informatique<br/>et le digital m’ont permis d’acquérir des connaissances techniques et pratiques, créatives, ainsi qu’une expérience professionnelle dans le secteur<br/>des industries graphiques.</p>
+                    <p className='presentation-a-propos'>Je continue de m'instruire au quotidien en pratiquant cette nouvelle passion.</p>
                     <p className='presentation-a-propos-bigger'>Me voilà maintenant développeur Fullstack JavaScript, avec le désir de continuer à apprendre et réaliser de nombreux projets !</p>
                     <Link to={CV} target='_blank'>
                         <button type="button" className='presentation-a-propos-cv'>Voir mon CV</button>
@@ -34,22 +38,22 @@ const About = () => (
                 <h2 className='about__cv-title'>Compétences</h2>
                 <div className="about__cv-column-skills">
                     <div>
-                        <p>React</p>
-                        <p>Redux</p>
-                        <p>JavaScript</p>
-                        <p>HTML</p>
+                        <p><FaReact /> React</p>
+                        <p><SiRedux /> Redux</p>
+                        <p><SiJavascript /> JavaScript</p>
+                        <p><RiHtml5Fill /> HTML</p>
                     </div>
                     <div>
-                        <p>CSS</p>
-                        <p>SASS</p>
-                        <p>Node.js</p>
-                        <p>Express</p>
+                        <p><DiCss3 /> CSS</p>
+                        <p><DiSass /> SASS</p>
+                        <p><FaNodeJs /> Node.js</p>
+                        <p><span>ex</span> Express</p>
                     </div>
                     <div>
-                        <p>PostgreSQL</p>
-                        <p>Illustrator</p>
-                        <p>InDesign</p>
-                        <p>Photoshop</p>
+                        <p><SiPostgresql /> PostgreSQL</p>
+                        <p><SiAdobeillustrator /> Illustrator</p>
+                        <p><SiAdobeindesign /> InDesign</p>
+                        <p><SiAdobephotoshop /> Photoshop</p>
                     </div>
                 </div>
             </section>

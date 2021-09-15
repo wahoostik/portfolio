@@ -4,7 +4,7 @@ export default [
         title: 'Développeur Web Fullstack Javascript',
         dated: '2020 - 2021',
         content: 'O’clock - Formation en Téléprésentiel - Labellisée Grande Ecole du Numérique',
-        details: '735h de formation intensive : 3 mois de socle (HTML5/CSS3/JavaScript), 1 mois de spécialisation React/Data API, 1 mois de projet',
+        details: '735h de formation : 3 mois de socle (HTML5/CSS3/JavaScript), 1 mois de spécialisation React/Data API, 1 mois de projet',
     },
     {
         id: 2,

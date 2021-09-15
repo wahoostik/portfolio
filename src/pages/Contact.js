@@ -68,7 +68,7 @@ const Contact = () => {
 
         setTimeout(() => {
             formMess.style.opacity = '0';
-        }, 400);
+        }, 4000);
     };
 
     const handleSubmit = (event) => {

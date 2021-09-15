@@ -6,7 +6,7 @@ export default [
     {
         id: 1,
         title: 'Intro to Blockchain',
-        content: 'React/Redux - SASS - Node/Express - PostgreSQL - Sqitch',
+        content: 'React - Redux - SASS - Node/Express - PostgreSQL - Sqitch',
         img: `${Blockchain}`,
         slug: 'http://blockchain-apotheose.surge.sh/',
         details: 'Projet de fin d\'étude en ligne',
@@ -14,7 +14,7 @@ export default [
     {
         id: 2,
         title: 'Chatroom',
-        content: 'React/Redux - SASS - Socket.io',
+        content: 'React - Redux - SASS - Socket.io',
         img: `${Chatroom}`,
         slug: 'https://github.com/wahoostik/chatroom',
         details: 'Appli web',

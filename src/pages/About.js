@@ -7,7 +7,7 @@ import Experience from '../assets/dataExperience';
 import Training from '../assets/dataTraining';
 import Face from '../assets/VisageCV.jpg';
 import { Link } from 'react-router-dom';
-import CV from '../assets/CV-AP-2021.pdf';
+import CV from '../assets/CV-AP-2021-Dev.pdf';
 import { FaReact, FaNodeJs } from 'react-icons/fa';
 import { SiRedux, SiJavascript, SiPostgresql, SiAdobeindesign, SiAdobeillustrator, SiAdobephotoshop } from 'react-icons/si';
 import { RiHtml5Fill } from 'react-icons/ri';

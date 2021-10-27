@@ -115,21 +115,15 @@ transform: translateY(0);
 
 @media screen and (max-width: 720px) {
 .home-title {
-    padding-top: 15rem;
-    font-family: $font-1, sans-serif;
-    font-weight: 700;
-    font-size: 4rem;
-    letter-spacing: .5rem;
-    color: #0F1624;
-    animation: pop 3s;
+    padding-top: 10rem;
+    font-size: 3rem;
 }
 
 .home-subtitle {
-    font-family: $font-1, sans-serif;
-    font-weight: 500;
-    font-size: 1.5rem;
-    color: #0F1624;
-    padding: 2rem 0 0 0;
-    animation: fadein 3s;
+    font-size: 1.3rem;
+}
+
+.home-techno {
+    font-size: 1.3rem;
 }
 }

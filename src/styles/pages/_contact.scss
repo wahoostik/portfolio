@@ -17,7 +17,7 @@
 }
 
 .contact__form-content {
-    // border: 1px solid red;
+    //border: 1px solid red;
     display: grid;
     // grid-template-rows: repeat(4, 1fr) 105px;
 }
@@ -158,4 +158,19 @@
     font-size: 1.2rem;
     color: #0F1624;
 }
+
+.contact__title {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+}
+
+.contact__subtitle {
+    font-size: 1rem;
+}
+
+.contact__form {
+    width: 80%;
+}
+
 }

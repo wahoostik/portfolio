@@ -172,5 +172,27 @@
 .contact__form {
     width: 80%;
 }
+}
 
+@media screen and (max-width: 320px) {
+.contact__subtitle {
+    margin: 4rem 4rem 4rem 4rem;
+    font-family: $font-1, sans-serif;
+    font-size: 1rem;
+    color: #0F1624;
+}
+
+.contact__title {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+}
+
+.contact__subtitle {
+    font-size: 1rem;
+}
+
+.contact__form {
+    width: 80%;
+}
 }

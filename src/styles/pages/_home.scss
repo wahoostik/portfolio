@@ -127,3 +127,28 @@ transform: translateY(0);
     font-size: 1.3rem;
 }
 }
+
+@media screen and (max-width: 320px) {
+.home-title {
+    padding-top: 10rem;
+    font-size: 2.5rem;
+}
+
+.home-subtitle {
+    font-size: 1rem;
+}
+
+.home-techno {
+    font-size: 1rem;
+}
+
+.brand-logo-linkedin-home {
+height: 50px;
+width: 50px;
+}
+
+.brand-logo-github-home {
+height: 50px;
+width: 50px;
+}
+}

@@ -2,9 +2,7 @@
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    // max-height: 100%;
     background: linear-gradient(45deg, #ffffff, #aebcd8);
-    // background-color: #637291;
 }
 
 .projects__container {
@@ -34,27 +32,22 @@
     padding: 1rem;
     position: relative;
     color: white;
-    // background-color: rgb(172, 197, 218);
     background-color:transparent;
     border-radius: 10%;
     width: 25rem;
     height: 25rem;
     box-shadow: 0 0.5rem 1rem #9bc2e5;
-    // box-shadow: 0 0.5rem 1rem #5982a8;
     margin-bottom: 3rem;
     transition: all 0.6s ease-in-out;
     &:hover{
-        // background-color:transparent;
         transition: all 0.6s ease-in-out;
         background-color: rgb(172, 197, 218);
         box-shadow: 0 0.5rem 1rem #5982a8;
-        // box-shadow: 0 0.5rem 1rem #9bc2e5;
     }
 }
 
 .projects__details-img {
     border-radius: 2px;
-    // min-width: 90%;
     width: 90%;
 }
 
@@ -74,9 +67,6 @@
     position: absolute;
     display: block;
     margin-top: 1.5rem;
-    // top: 70%;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
     width: 90%;
     font-family: $font-1, sans-serif;
     font-weight: 700;
@@ -101,8 +91,6 @@
     width: 90%;
     position: absolute;
     bottom: 2rem;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
     font-size: 1rem;
     font-family: $font-1, sans-serif;
     line-height: 1.2rem;
@@ -128,9 +116,6 @@
     position: absolute;
     display: block;
     margin-top: 1.5rem;
-    // top: 70%;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
     width: 90%;
     font-family: $font-1, sans-serif;
     font-weight: 700;
@@ -155,8 +140,6 @@
     width: 90%;
     position: absolute;
     bottom: 1.5rem;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
     font-size: 1rem;
     font-family: $font-1, sans-serif;
     line-height: 0.9rem;
@@ -183,9 +166,6 @@
     position: absolute;
     display: block;
     margin-top: 1rem;
-    // top: 70%;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
     width: 90%;
     font-family: $font-1, sans-serif;
     font-weight: 700;
@@ -210,8 +190,6 @@
     width: 90%;
     position: absolute;
     bottom: 0.8rem;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
     font-size: 0.7rem;
     font-family: $font-1, sans-serif;
     line-height: 0.7rem;

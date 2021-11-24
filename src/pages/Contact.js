@@ -3,8 +3,6 @@
 // == Import
 import { useState } from 'react';
 import Navigation from '../components/Navigation';
-// import { init } from 'emailjs-com';
-// init('user_jtL8xoweJfShhsv6mdYTw');
 
 
 // == Composant

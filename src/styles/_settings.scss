@@ -12,9 +12,6 @@ font-family: $font-1;
 
 body {
   text-align: center;
-  // animation: pop 2s;
-  // background: linear-gradient($color-2, $color-3);
-  // background: linear-gradient(45deg, #ffffff, #ADB0B4);
   background: linear-gradient(45deg, #ffffff, #aebcd8);
   background-color: black;
   min-height: 100vh;
@@ -24,14 +21,3 @@ body {
   height:100%;
   overflow-y:scroll;
 }
-/*
-@keyframes pop {
-  0% {
-    opacity: 0;
-    transform: translateY(-1rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}*/

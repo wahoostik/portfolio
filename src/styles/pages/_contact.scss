@@ -17,9 +17,7 @@
 }
 
 .contact__form-content {
-    //border: 1px solid red;
     display: grid;
-    // grid-template-rows: repeat(4, 1fr) 105px;
 }
 
 .contact__form-input {
@@ -52,11 +50,8 @@
     margin: 3rem auto 0;
     width: 40%;
     min-width: 15%;
-    // max-width: 70%;
-    // max-width: 450px;
     font-family: $font-1, sans-serif;
     padding: 0 30px 10px;
-    // box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.637);
 }
 
 .contact__form-message {
@@ -87,7 +82,6 @@
     background-color: #5a709c;
     color: white;
     font-family: $font-1, sans-serif;
-    // font-weight: 700;
     font-size: 1.15rem;
     transition: 0.8s ease;
     &:hover {
@@ -100,15 +94,10 @@
 
 .not-mail {
     display: none;
-    //position: absolute;
     text-align: center;
     width: 100%;
-    // left: 0;
-    // top: 35rem;
     color: red;
     margin-bottom: 1rem;
-    // right: 0;
-    // transform-origin: 50% 50%;
 }
 
 .error::placeholder {
